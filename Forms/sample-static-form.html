@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            td {
+                border: solid black 1px;
+            }
+            table{
+                border-collapse: collapse;
+                width: 25%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <strong>First Name</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Last Name</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong> Adress</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <textarea style="height: 50px"></textarea>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>City</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Zip/Postal Code</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Country</strong>
+                    </td>
+                    <td>
+                        <select style="width: 150px" name="country">
+                            <option value="bulgaria">Bulgaria</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Phone(country code<br> area code, number)</strong>
+                    </td>
+                    <td>
+                        <form>
+                            +(
+                            <input style="width:30px" type="text">)
+                            <input style="width:25px" type="text">
+                            <input style="width:80px" type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>E-mail</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Birth date</strong>
+                    </td>
+                    <td>
+                        <form>
+                            Month
+                            <input style="width:20px" type="text"> Day 
+                            <input style="width:20px" type="text"> Year 
+                            <input style="width:40px" type="text">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Gender</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <select name="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="not-specified">Not Specified</option>
+                            </select>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Starting date</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="radio" name="start-date" value="spring">Spring 2016
+                            <input type="radio" name="start-date" value="summer">Summer 2016
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Comments/Questions</strong>
+                    </td>
+                    <td>
+                        <form>
+                            <textarea style="height: 100px"> </textarea>
+                        </form>
+                    </td>
+                <tr>
+                    <td colspan="2" style="text-align: center">
+                        <form>
+                            <button type="button">Submit</button>
+                            <button type="button">Clear this form</button>
+                        </form>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
